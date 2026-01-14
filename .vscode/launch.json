@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/kartik/Desktop/myc",
-      "program": "/Users/kartik/Desktop/myc/build/Debug/outDebug"
+      "cwd": "/Users/kartik/Desktop/Hashmaps",
+      "program": "/Users/kartik/Desktop/Hashmaps/build/Debug/outDebug"
     }
   ]
 }
