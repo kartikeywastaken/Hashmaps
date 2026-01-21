@@ -33,7 +33,7 @@ int main(){
     printf("Enter a word: \n"); 
     scanf(" %s", input);
     hash[i] = hashString(input, strlen(input));
-    index[i] = hash[i]%8;
+    index[i] = hash[i]%8; // storing the hashed int in the slot of the array index
     m[index[i]].str = strdup(input); // to create a copy of the string and then store it.
     // also we can use strcpy(m[index[i]], input) 
     // m[index[i]] = first you go to the "i'th" position in the index array and then the index'th position in the
